@@ -5,7 +5,6 @@ svg {
   font-size: 14px;
   line-height: 21px;
 }
-
 #background {
   width: calc(100% - 10px);
   height: calc(100% - 10px);
@@ -15,12 +14,10 @@ svg {
   rx: 6px;
   ry: 6px;
 }
-
 foreignObject {
   width: calc(100% - 10px - 32px);
   height: calc(100% - 10px - 24px);
 }
-
 h2 {
   margin-top: 0;
   margin-bottom: 0.75em;
@@ -30,14 +27,12 @@ h2 {
   color: rgb(36, 41, 46);
   fill: rgb(36, 41, 46);
 }
-
 ul {
   list-style: none;
   padding-left: 0;
   margin-top: 0;
   margin-bottom: 0;
 }
-
 li {
   display: inline-flex;
   font-size: 12px;
@@ -50,25 +45,21 @@ li {
   animation-function: ease-in-out;
   animation-fill-mode: forwards;
 }
-
 @keyframes slideIn {
   to {
     transform: translateX(0);
   }
 }
-
 div.ellipsis {
   height: 100%;
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .octicon {
   fill: rgb(88, 96, 105);
   margin-right: 0.5ch;
   vertical-align: top;
 }
-
 .progress {
   display: flex;
   height: 8px;
@@ -78,18 +69,15 @@ div.ellipsis {
   outline: 1px solid transparent;
   margin-bottom: 1em;
 }
-
 .progress-item {
   outline: 2px solid rgb(225, 228, 232);
   border-collapse: collapse;
 }
-
 .lang {
   font-weight: 600;
   margin-right: 4px;
   color: rgb(36, 41, 46);
 }
-
 .percent {
   color: rgb(88, 96, 105)
 }
